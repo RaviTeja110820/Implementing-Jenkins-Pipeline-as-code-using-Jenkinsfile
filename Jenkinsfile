@@ -16,7 +16,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/RaviTeja110820/Implementing-Jenkins-Pipeline-as-code-using-Jenkinsfile.git'
+                git branch: 'main', url: 'https://github.com/RaviTeja110820/Implementing-Jenkins-Pipeline-as-code-using-Jenkinsfile.git'
             }
         }
 
